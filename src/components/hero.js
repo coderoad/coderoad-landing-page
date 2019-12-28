@@ -29,7 +29,7 @@ const Header = ({ siteTitle }) => (
     <p style={{ textAlign: "center", maxWidth: 440 }}>
       The VSCode extension for interactive coding tutorials.
     </p>
-    <a href='https://tiny.cc/coderoad' target='_blank'>
+    <a href='http://eepurl.com/gKj3bD' target='_blank'>
       <Button>Get Early Access</Button>
     </a>
     <div style={{ margin: 30, marginTop: 60, position: "relative" }}>
