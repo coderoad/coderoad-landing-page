@@ -9,7 +9,7 @@ const CallToAction = () => (
       title="Stay Updated"
       description="Be the first to try out CodeRoad. We'd love your feedback!"
     />
-    <a href='https://tiny.cc/coderoad'>
+    <a href='https://tiny.cc/coderoad' target='_blank'>
     <Button>Get Early Access</Button>
     </a>
   </div>
