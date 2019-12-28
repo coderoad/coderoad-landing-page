@@ -1,14 +1,15 @@
 import React from "react"
 
-import feature from "../images/feature.png"
+import vscode from "../images/vscode.png"
+import githubFolder from "../images/githubFolder.png"
 import SectionHeader from "./section-header"
 import { COLORS } from "../styles/constants"
 
 const Content = () => (
   <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
     <SectionHeader
-      title="Minimal Features"
-      description="Don't spend time ripping out unneeded plugins and bloat."
+      title="What is CodeRoad?"
+      description="A VSCode extension for playing coding tutorials. Think CodeCademy, but in your editor."
     />
     <content
       style={{
@@ -18,15 +19,25 @@ const Content = () => (
         gridTemplateColumns: "repeat(auto-fit, minmax(240px, 340px))",
       }}
     >
-      <div>
-        <h3>What you need to Start</h3>
+       <div>
+        <h3>Real World Coding</h3>
         <p style={{ color: COLORS.gray }}>
-          Includes plugins for analytics, building sitemaps, and optimizing
-          images
+           Your editor. Your plugins. Save with Git. Deploy.
         </p>
       </div>
       <div>
-        <img src={feature} alt="a blank card floating over colorful graphics" />
+        <img src={vscode} alt="VSCode Editor logo" width={220} />
+      </div>
+
+      <div>
+        <h3>Own Your Learning</h3>
+        <p style={{ color: COLORS.gray }}>
+           Build your portfolio from tutorials. Publishing your projects online.
+        </p>
+      </div>
+      
+      <div>
+        <img src={githubFolder} alt="Folder with GitHub icon" width={300} />
       </div>
     </content>
   </div>

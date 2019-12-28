@@ -3,8 +3,7 @@ import PropTypes from "prop-types"
 
 import Button from "../components/button"
 import headerImage from "../images/header.png"
-import MockupContent from "./image"
-import mockupFrame from "../images/mockup-frame.png"
+import mockupFrame from "../images/macbook.png"
 
 const Header = ({ siteTitle }) => (
   <div
@@ -26,28 +25,18 @@ const Header = ({ siteTitle }) => (
         opacity: 0.5,
       }}
     />
-    <h1 style={{ textAlign: "center" }}>Landing Page Starter</h1>
+    <h1 style={{ textAlign: "center" }}>CodeRoad</h1>
     <p style={{ textAlign: "center", maxWidth: 440 }}>
-      This landing page looks great on all devices and is minimal in design. Add
-      what you want and deploy.
+      The VSCode extension for interactive coding tutorials.
     </p>
-    <Button>Get Early Access</Button>
-    <div style={{ margin: 60, width: `250px`, position: "relative" }}>
-      <div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>
-        <MockupContent />
-      </div>
-      <div
-        style={{
-          position: "absolute",
-          width: "250px",
-          top: 0,
-        }}
-      >
+    <a href='https://tiny.cc/coderoad'>
+      <Button>Get Early Access</Button>
+    </a>
+    <div style={{ margin: 60, position: "relative" }}>
         <img
           src={mockupFrame}
           alt="outlines of shapes and confetti in the background "
         />
-      </div>
     </div>
   </div>
 )
