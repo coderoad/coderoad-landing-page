@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Starter Landing Page`,
-    description: `A barebone landing page starter with some minimal styles.`,
-    author: `@gillkyle`,
-    siteUrl: `https://gatsby-starter-landing-page.netlify.com`,
+    title: `CodeRoad`,
+    description: `Play interactive tutorials in VSCode.`,
+    author: `@Sh_McK`,
+    siteUrl: `https://coderoad.io`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
