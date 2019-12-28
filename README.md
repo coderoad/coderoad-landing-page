@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4c0b1daa-5854-4fef-987a-18908c900bef/deploy-status)](https://app.netlify.com/sites/coderoad/deploys)
 <p align="center">
   <img alt="preview of page" src="https://github.com/gillkyle/images/blob/master/Screen%20Shot%202019-03-21%20at%209.14.46%20PM.png" />
 </p>
